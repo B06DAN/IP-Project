@@ -14,7 +14,6 @@
           background-color: #333333;">  
 
         <?php
-// define variables and set to empty values
         $nameErr = $emailErr = $genderErr = $websiteErr = "";
         $name = $email = $gender = $comment = $website = "";
 
@@ -28,7 +27,6 @@
                     $nameErr = "Only letters and white space allowed";
                 }
             }
-
 
             if (empty($_POST["comment"])) {
                 $comment = "";

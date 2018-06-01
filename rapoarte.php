@@ -76,7 +76,7 @@
         <script>
             function autoRefresh_div()
             {
-                $("#result").load("../CHAT/load.php").show();// a function which will load data from other file after x seconds
+                $("#result").load("../CHAT/load.php").show();
             }
 
             setInterval('autoRefresh_div()', 2000);
@@ -101,19 +101,6 @@
                     ?>
                 </div>			
             </div>
-
-<!--            <form method='post' action="#" onsubmit="return post();" id="my_form" name="my_form">
-                <div id="form-container">
-                    <div class="form-text">
-                        <input type="text" style="display:none" id="username" value="<?= $_SESSION['uname'] ?>">
-                        <textarea id="comment"></textarea>
-                    </div>
-                    <div class="form-btn">
-                        <input type="submit" value="Send" id="btn" name="btn"/>
-                    </div>
-                </div>
-            </form>-->
-
         </div>
     </body>
 </html>

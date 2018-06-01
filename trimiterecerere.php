@@ -1,10 +1,4 @@
-<?php
-//require_once (__DIR__ . '/inc/common.php');
-//$request_uri = $_SERVER['REQUEST_URI'];
-?>
-
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="UTF-8"/>
@@ -47,7 +41,6 @@
         </header>
 
         <div class="login-boxai" style="height: 480px; width: 520px;">
-<!--            <img src="./images/avatar.png" class="avatarai">   MODIFICAI PADDING DE LA 20 LA 50 SI FONT-SIZE DE LA 22 LA 30                        -->
             <h1 style="margin: 0;padding: 0 0 50px;text-align: center;font-size: 30px; color:#eae9d9">Trimitere cerere</h1>
             <form action="registertrimitere.php" method="POST">
                 <p>Autor</p>

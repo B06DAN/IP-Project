@@ -1,5 +1,4 @@
 <?php
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $password = $_POST['password'];
@@ -14,8 +13,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         Print '<script>alert("Numele de utilizator este luat!");</script>';
     } else {
         $mysqli->query("INSERT INTO users (username, password) VALUES ('$username', '$password')");
-
-//        Print '<script>alert("Inregistrarea s-a realizat cu succes.");</script>';
         Print '<script>window.location.assign("index.php");</script>';
     }
 }

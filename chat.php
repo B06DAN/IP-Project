@@ -10,7 +10,6 @@ include("config.php");
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="css/style.css">
 
-
         <script>
             $(document).ready(function (e) {
 
@@ -27,7 +26,6 @@ include("config.php");
                     $("#chatDisplay").html(data);
                     }
             });
-//            });
 
                     setInterval(function () {
                     displayChat();
@@ -52,24 +50,14 @@ include("config.php");
             });
 
         </script>
-
-
     </head>
 
-
     <body>
-
-
         <div class="container-fluid">
-
             <h3 class="text-center">Chat Room</h3>
-
-            <div id="chatBox"><!--class="well"-->
-
+            
+            <div id="chatBox">
                 <div id="chatDisplay"></div> 
-
-
-
             </div>
 
             <form id="myChatForm">
@@ -77,12 +65,6 @@ include("config.php");
                 <textarea name="message" id="message" placeholder="Introduceti mesajul aici" cols="30" rows="3"></textarea><br>
                 <button type="button" class="btn btn-success btn-lg" id="senMessageBtn"> Trimite mesaj</button>
             </form>
-
-
-
         </div>
-
-
-
     </body>
 </html>

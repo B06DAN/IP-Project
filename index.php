@@ -1,6 +1,4 @@
-
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="UTF-8"/>
@@ -43,7 +41,6 @@
         </header>
 
         <div class="login-boxai">
-            <!--<img src="./images/avatar.png" class="avatarai">-->
             <h1 style="margin: 0;padding: 0 0 50px;text-align: center;font-size: 30px; color:#eae9d9">Autenficare</h1>
             <form action="checklogin.php" method="POST">
                 <p>Username</p>

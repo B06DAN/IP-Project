@@ -1,7 +1,5 @@
 <?php
-
 include("config.php");
-
 
 $uname = $_POST['uname'];
 $umessage = $_POST['umessage'];

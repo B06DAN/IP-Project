@@ -24,7 +24,6 @@
     <body>
         <img src = "images/sigla3.png" >
 
-
         <?php
         $servername = "localhost";
         $username = "root";
@@ -54,12 +53,10 @@
             if ($conn->connect_error) {
                 die("Connection failed: " . $conn->connect_error);
             }
-
-
             $sql = "DELETE FROM cereri WHERE id=$id";
 
             if ($conn->query($sql) === TRUE) {
-               
+                
             } else {
                 echo "Error deleting record: " . $conn->error;
             }
@@ -70,7 +67,6 @@
                 <a style="float: right; margin-top: 10px;" class="btn btn-primary" href="vizcerere.php">Refresh</a>
                 <?php
                 if ($result->num_rows > 0) {
-                    // output data of each row
                     while ($row = $result->fetch_assoc()) {
                         ?>
                         <div class="col-md-3">
